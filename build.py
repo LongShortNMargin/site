@@ -162,3 +162,5 @@ with open(os.path.join(OUT, "favicon.svg"), "w", encoding="utf-8") as f:
     f.write('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="6" fill="#16181a"/>'
             '<text x="16" y="22" text-anchor="middle" font-family="Inter,Helvetica,Arial,sans-serif" font-size="17" font-weight="600" fill="#fbfaf7">LS</text></svg>')
 open(os.path.join(OUT, ".nojekyll"), "w").close()
+with open(os.path.join(OUT, "CNAME"), "w", encoding="utf-8") as f:
+    f.write("longshortnmargin.tech")
